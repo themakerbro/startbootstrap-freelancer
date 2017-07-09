@@ -198,6 +198,10 @@ section#donate {
   background: #9164ab;
   color: white;
 }
+section#heroes {
+  background: #9164ab;
+  color: white;
+}
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
