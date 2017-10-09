@@ -17,6 +17,9 @@
     <!-- Theme CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
 
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -42,7 +45,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Team Edu | Fighting Cancer Across Borders</a>
+                <a class="navbar-brand" href="#page-top"><img src="img/brand-01.png"/></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -78,8 +81,45 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+		<section id="carousel-section">
+			<div id="carousel-example" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+					<!-- <li data-target="#carousel-example" data-slide-to="1"></li> -->
+				</ol>
 
+				<div class="carousel-inner">
+					<div class="item active">
+						<a href="#"><img src="img/slide-teamedu-01.png" /></a>
+						<div class="carousel-caption">
+							<h3>Team Edu</h3>
+							<p>Team Edu is a group of friends,
+							family, runners and cancer fighters dedicated to
+							raising funds in memory of Eduardo O'Farrell (Edu), who
+							lost his battle to cancer in December of 2016.</p>
+						</div>
+					</div>
+					<!--
+					<div class="item">
+						<a href="#"><img src="http://placekitten.com/1600/600" /></a>
+						<div class="carousel-caption">
+							<h3>Meow</h3>
+							<p>Just Kitten Around</p>
+						</div>
+					</div>
+					-->
+				</div>
+
+				<a class="left carousel-control" href="#carousel-example" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+		</section>
     <!-- Header -->
+		<!--
     <header>
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
@@ -87,13 +127,16 @@
                     <img class="img-responsive" src="img/logo_2.png" alt="">
                     <div class="intro-text">
                         <h1 class="name">Team Edu</h1>
-                        <span class="skills">Team Edu is a group of friends, family, runners and cancer fighters dedicated to raising funds in memory of Eduardo O'Farrell (Edu), who lost his battle to cancer in December of 2016.</span>
+                        <span class="skills">Team Edu is a group of friends,
+                        family, runners and cancer fighters dedicated to
+                        raising funds in memory of Eduardo O'Farrell (Edu), who
+                        lost his battle to cancer in December of 2016.</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-
+		-->
     <!-- Donate Section -->
     <section class="success" id="donate">
         <div class="container">
@@ -105,11 +148,20 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Team Edu is running, walking, cycling, swimming, and cheering to help those battling cancer, in memory of Edu. Funds will benefit research on life-saving cures at labs and research centers in the US, as well as treatment and patient support in Edu's home country of Argentina. </p>
-                </div>
+                    <p>Team Edu is running, walking, cycling, swimming, and
+                    cheering to help those battling cancer, in memory of Edu.
+                    Funds will benefit research on life-saving cures at labs
+                    and research centers in the US, as well as treatment and
+                    patient support in Edu's home country of Argentina. </p>
+                    </div>
                 <div class="col-lg-4">
-                    <p>We are arranging the final details with our partner organizations: the <a href="https://www.lls.org">Leukemia and Lymphoma Society</a> in the US and <a href="http://www.fleni.org.ar/donar/"> Fundacion FLENI </a>, where Edu received all his cancer treatment in Argentina. We will be ready to accept donations soon!</p>
-                </div>
+                    <p>We are arranging the final details with our partner
+                    organizations: the <a href="https://www.lls.org">Leukemia
+                    and Lymphoma Society</a> in the US and <a
+                    href="http://www.fleni.org.ar/donar/"> Fundacion FLENI
+                    </a>, where Edu received all his cancer treatment in
+                    Argentina. We will be ready to accept donations soon!</p>
+                    </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="#" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Coming Soon!
@@ -152,6 +204,7 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
+                        <!--
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label for="phone">Phone Number</label>
@@ -159,6 +212,7 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
+                        -->
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label for="message">Message</label>
@@ -321,18 +375,35 @@
                     <hr class="star-light">
                 </div>
             </div>
-	    <div>
-	      <img src="img/Edu_Banner.png" class="img-responsive img-centered" alt="">
-	      </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                  <p> Edu O'Farrell was a loving husband for 27 years, a father of three daugthers, an amazing brother, uncle, godfather, and friend, an avid tennis player, and a passionate fly-fisherman. Edu was diagnosed with Glioblastoma Multiforme (GBM) in 2015, at the young age of 57. After a long and hard battle which included two surgeries, radiation, and two kinds of chemotherapy, Edu passed away on December 12, 2016. His kindness, strength, loyalty, dry wit, and moral courage are missed dearly by his friends and family who started this team in his honor.
-		  </p>
+                <div class="col-lg-12 text-center">
+                  <img src="img/Edu_Banner.png" class="img-responsive img-centered" alt="">
+                  <div class="spacer25"></div>
                 </div>
-                <div class="col-lg-4">
-                  <p> Edu was a lifelong resident of Buenos Aires, and he received all of his treatment at BA's <a href="http://www.fleni.org.ar/donar/"> FLENI hospital</a>. Edu had the fortunate opportunity to travel to the US to look into experimental treatments and clinical trials. Although none were right for him, Team Edu is committed to funding research towards new cures for cancer in all its forms. This is why the Team has partnered with FLENI and  <a href="https://www.lls.org">Leukemia and Lymphoma Society</a> in the US, to raise funds for patient treatment and supoprt as well as cutting-edge research. </p> 
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p> Edu O'Farrell was a loving husband for 27 years, a father of three
+                    daugthers, an amazing brother, uncle, godfather, and friend, an avid tennis
+                    player, and a passionate fly-fisherman. Edu was diagnosed with Glioblastoma
+                    Multiforme (GBM) in 2015, at the young age of 57. After a long and hard battle
+                    which included two surgeries, radiation, and two kinds of chemotherapy, Edu
+                    passed away on December 12, 2016. His kindness, strength, loyalty, dry wit, and
+                    moral courage are missed dearly by his friends and family who started this team
+                    in his honor.
+                    </p>
                 </div>
-
+                <div class="col-lg-6">
+                    <p> Edu was a lifelong resident of Buenos Aires, and he received all of his
+                    treatment at BA's <a href="http://www.fleni.org.ar/donar/"> FLENI hospital</a>.
+                    Edu had the fortunate opportunity to travel to the US to look into experimental
+                    treatments and clinical trials. Although none were right for him, Team Edu is
+                    committed to funding research towards new cures for cancer in all its forms.
+                    This is why the Team has partnered with FLENI and  <a
+                    href="https://www.lls.org">Leukemia and Lymphoma Society</a> in the US, to
+                    raise funds for patient treatment and supoprt as well as cutting-edge research.
+                    </p> 
+                </div>
             </div>
         </div>
     </section>
