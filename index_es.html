@@ -17,6 +17,9 @@
     <!-- Theme CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
 
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -42,7 +45,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Team Edu | Fighting Cancer Across Borders</a>
+		<a class="navbar-brand" href="#page-top"><img src="img/brand-01.png"/></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -66,9 +69,9 @@
                     <li class="page-scroll">
                         <a href="#heroes">EDU</a>
                     </li>
-                    <li class="page-scroll">
+                    <!--<li class="page-scroll">
                         <a href="#">RECAUDACI&Oacute;N</a>
-                    </li>
+                    </li>-->
 		    <li class="page-scroll">
                         <a href="index.html">ENGLISH</a>
                     </li>
@@ -78,8 +81,39 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+        <section id="carousel-section">
+            <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example" data-slide-to="1"></li>
+                </ol>
 
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="#"><img src="img/slide-teamedu-01.png" /></a>
+                        <div class="carousel-caption">
+                            <h3>Team Edu</h3>
+                            <p>>Team Edu es un grupo de amigos, familiares y corredores dedicados a luchar contra el c&aacute;ncer en memoria de Eduardo O'Farrell, quien perdi&oacute; su batalla contra el c&aacute;ncer en Diciembre del 2016.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="img/progress_bar.png" /></a>
+                        <div class="carousel-caption">
+                            <h3>Gracias por ayudarnos a recaudar 0 USD!</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </section>
     <!-- Header -->
+    <!--
     <header>
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
@@ -93,7 +127,7 @@
             </div>
         </div>
     </header>
-
+    -->
     <!-- Donate Section -->
     <section class="success" id="donate">
         <div class="container">
@@ -104,15 +138,23 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                  <p>En Team Edu estamos corriendo, caminando, nadando, bicicletando y apoyando a aquellos que luchan contra el c&aacute;ncer en memoria de Edu. Los fondos recaudados ser&aacute;n destinados al desarrollo de nuevas terapias en centros de investigaci&oacute;n en EE. UU. y al tratamiento y apoyo a pacientes en Argentina. </p>
+                <div class="col-lg-8 col-lg-offset-2">
+                  <p>En Team Edu estamos corriendo, caminando, nadando, bicicletando y apoyando a aquellos que luchan contra el c&aacute;ncer en memoria de Edu. Los fondos recaudados ser&aacute;n destinados al desarrollo de nuevas terapias en centros de investigaci&oacute;n en EE. UU. y al tratamiento y apoyo a pacientes en Argentina.
+		  </p>
                 </div>
-                <div class="col-lg-4">
-                  <p> Estamos definiendo los &uacute;ltimos detalles con las dos organizaciones beneficiarias: la <a href="https://www.lls.org">Leukemia and Lymphoma Society</a> en EE. UU. y la <a href="http://www.fleni.org.ar/donar/"> Fundaci&oacute;n FLENI </a> en Buenos Aires. &#161;Pronto estaremos listos para aceptar donaciones! </p>
+		<div class="col-lg-8 col-lg-offset-2">
+                  <p> Nos hemos asociado con dos organizaciones: la <a href="https://www.lls.org">Leukemia and Lymphoma Society</a> en EE. UU. y la <a href="http://www.fleni.org.ar/donar/"> Fundaci&oacute;n FLENI </a> en Buenos Aires. Pod&eacute;s hacer una donaci&oacute;n a Team Edu a trav&eacute;s de estas organizaciones: </p>
                 </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Coming Soon!
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <a href="https://bit.ly/TeamEduLLS" class="btn btn-info btn-lg">
+                        Donar </br>
+                        via LLS    
+                    </a>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <a href="https://bit.ly/TeamEduFLENI" class="btn btn-info btn-lg">
+                        Donar </br>
+                        via FLENI
                     </a>
                 </div>
             </div>
