@@ -93,4 +93,11 @@
       -webkit-transition: padding 0.5s; /* Safari */
       transition: padding 0.5s;
   }
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img
+  {
+      min-height:400px;
+      -o-object-fit: cover;
+      object-fit: cover;
+      overflow: hidden;
+  }
 }
